@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <title>Typescript</title>
+    <script src="/index.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lägg till ny kurs nedan</h1>
+    </header>
+    <main>
+        <form id="courseForm">
+            <label for="courseName">Kursnamn: </label>
+            <br>
+            <input type="text" id="courseName" required>
+            <br>
+            <label for="courseCode">Kurskod: </label>
+            <br>
+            <input type="text" id="courseCode" required>
+            <br>
+            <label for="url">URL: </label>
+            <br>
+            <input type="text" id="url">
+            <br>
+            <label for="prog">Progression: </label>
+            <select name="progression" id="prog" required>
+                <option value>Välj progression</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Lägg till kurs" id="submit">
+        </form>
+        </div>
+        <div id="courses">
+            <ul id="courseList"></ul>
+            <button id="clear">Ta bort kurser</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
