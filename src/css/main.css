@@ -40,6 +40,122 @@
     height: auto;
     margin: 50px auto 0;
   }
+  input {
+    width: 80%;
+    height: 30px;
+  }
   
+  select {
+    height: 30px;
+  }
+  
+  #submit {
+    color: #fff;
+    background-color: #5e5e5e;
+    max-width: 200px;
+    height: 40px;
+    margin: 20px 0;
+    font-size: 20px;
+  }
+  
+  #courses ul li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 2px solid #000;
+    max-width: 100%;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  #courses ul li a {
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .edit {
+    float: right;
+    color: #fff;
+    background-color: #5e5e5e;
+    max-width: 200px;
+    height: 40px;
+    padding: 0 25px;
+    font-size: 20px;
+  }
+  
+  .edit:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px gray;
+  }
+
+  #updateBtn {
+    color: #fff;
+    background-color: #5e5e5e;
+    max-width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+  
+  #clear {
+    color: #fff;
+    background-color: #5e5e5e;
+    max-width: 200px;
+    height: 40px;
+    margin: 20px 0 200px 20px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  #clear:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px gray;
+  }
+  
+  #submit:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px gray;
+  }
+  
+  #courses {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #courses ul {
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .editinput {
+    width: 60%;
+    max-width: 250px;
+    height: 30px;
+    transition: none;
+    display: block;
+  }
+
+  footer {
+    background-color: #5e5e5e;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  footer p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+  }
+  
+  /*# sourceMappingURL=index.css.map */
+   
   
  
