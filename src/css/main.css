@@ -1,18 +1,45 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
+  }
+  
+  header {
+    background-color: #5e5e5e;
     width: 100%;
-    margin: 0 auto;
     height: 150px;
-    background-color: rgb(94, 94, 94);
-}
-
-h1 {
-    font-size: 42px;
+    margin: 0 auto;
+  }
+  
+  h1 {
     text-align: center;
+    color: #fff;
     padding-top: 50px;
-    color: #FFF;
-}
-
+    font-size: 42px;
+  }
+    
+  h2 {
+    padding: 10px 0 10px 20px;
+    font-size: 28px;
+  }
+  
+  label {
+    font-size: 24px;
+  }
+  
+  form {
+    padding: 0 0 0 20px;
+  }
+  
+  #addCourse {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: 50px auto 0;
+  }
+  
+  
+ 
